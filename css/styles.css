@@ -1,0 +1,122 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', serif;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+/*==========================heading sections==========================================================*/
+.section-heading {
+  color: #ff6464;
+  font-size: 4rem;
+}
+
+.section-padding {
+  margin: 5% auto 5% auto;
+  padding: 8% 0 8% 0;
+}
+
+/*====================================================================================*/
+/* head-pic */
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.oneliner {
+  background-color: rgba(111, 56, 35, 0.3);
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto 0 auto;
+  padding: 3% 0 2% 0;
+}
+
+.head-text {
+  font-size: 9vw;
+  margin: 0;
+}
+
+/* ceremony and reception section */
+.address {
+  line-height: 2;
+  margin: 20% 0;
+}
+
+.reception-img {
+  border-radius: 40%;
+  padding: 10%;
+}
+
+@media (max-width: 600px) {
+  .address {
+    margin: 10%;
+  }
+
+  .reception-img {
+    display: none;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+  }
+
+  .section-padding {
+    padding: 12% 0 12% 0;
+  }
+}
+
+/* gift guide section */
+.gift-guide {
+  background-color: rgba(224, 123, 81, 0.5);
+  width: 100%;
+  line-height: 2;
+}
+
+.text-grey {
+  margin: 5% 12% 0 12%;
+}
+
+/* gallery section */
+.sub-heading {
+margin-bottom:5%;
+}
+
+
+.gal {
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3;
+}
+
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+
+
+
+@media (max-width: 600px) {
+  .gal {
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+  }
+
+}
+
+/* footer-thanks */
+.footer {
+  background-color: rgba(224, 123, 81, 0.5);
+  padding: 6% 15% 2% 15%;
+  margin: 0;
+}
